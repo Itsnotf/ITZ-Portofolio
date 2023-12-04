@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import NotFound from './Pages/NotFound';
-import Navbar from './Components/navbar'
+import Navbars from './Components/Navbars'
 import { pages } from './constant';
 
 function App() {
@@ -68,7 +68,7 @@ function App() {
 
     <div className='bg-gradient-to-r from-white via-white to-blue-200 h-full'>
       <div className='relative flex items-start'>
-        {showNavbar && <Navbar halaman={Halaman} currentIndex={currentIndex} navigate={handleNavigation} isActive={isActive} />}
+        {showNavbar && <Navbars halaman={Halaman} currentIndex={currentIndex} navigate={handleNavigation} isActive={isActive} />}
       </div>
 
       <Routes>

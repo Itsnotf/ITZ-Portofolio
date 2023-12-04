@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import { SlSocialInstagram, SlSocialLinkedin, SlSocialGithub, SlSocialFacebook } from 'react-icons/sl'
-import { RxHamburgerMenu } from 'react-icons/rx'
 
 
-function navbar({ halaman, currentIndex, navigate, isActive }) {
+function Navbars({ halaman, currentIndex, navigate, isActive }) {
     const [burger, setBurger] = useState(false);
     const isAtBeginning = currentIndex === 0;
     const isAtEnd = currentIndex === 3;
@@ -34,7 +33,7 @@ function navbar({ halaman, currentIndex, navigate, isActive }) {
                         <button onClick={handleForwardClick} disabled={isAtEnd}><IoIosArrowForward className={isAtEnd ? 'cursor-not-allowed md:text-[25px] sm:text-[20px] text-[25px]' : 'cursor-pointer md:text-[25px] sm:text-[20px] text-[25px]'} /></button>
                     </div>
                 </div>
-                <div className='md:flex justify-end text-[#213C57] text-gray-300  md:mx-[100px] gap-5 hidden '>
+                <div className='md:flex justify-end  text-gray-300  md:mx-[100px] gap-5 hidden '>
                     <div className='flex justify-center bg-[#FCFCFC] text-[20px] w-[30px] h-[30px] hover:text-orange-200 shadow-[0_0px_10px_2px_rgba(255,157,0,0.15)] ease-in-out transition-all hover:ease-in-out hover:-translate-y-1 hover:shadow-[0_5px_10px_7px_rgba(255,157,0,0.15)] duration-300 rounded-full '>
                         <button ><SlSocialFacebook /></button>
                     </div>
@@ -53,4 +52,4 @@ function navbar({ halaman, currentIndex, navigate, isActive }) {
     );
 }
 
-export default navbar;
+export default Navbars;
