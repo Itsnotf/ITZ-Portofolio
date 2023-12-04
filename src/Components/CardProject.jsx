@@ -10,7 +10,7 @@ function CardProject({ card }) {
             <div className='flex mt-[20px] mx-[18px] flex-col font-poppins text-[#213C57]'>
                 <div className='w-full md:h-[160px] h-[140px]'>
                     <h1 className='md:text-[25px] text-[20px] text-[#DFAA74] font-semibold '>{card.heading}</h1>
-                    <p className='md:text-[20px] text-[15px] mt-[10px]'>{card.tittle}</p>
+                    <p className='md:text-[15px] text-[15px] mt-[10px]'>{card.tittle}</p>
                 </div>
                 <div className=''>
                     <Buttons text="Selengkapnya!" />
