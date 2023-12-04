@@ -4,7 +4,7 @@ import { SlSocialInstagram, SlSocialLinkedin, SlSocialGithub, SlSocialFacebook }
 import { RxHamburgerMenu } from 'react-icons/rx'
 
 
-function Navbar({ halaman, currentIndex, navigate, isActive }) {
+function navbar({ halaman, currentIndex, navigate, isActive }) {
     const [burger, setBurger] = useState(false);
     const isAtBeginning = currentIndex === 0;
     const isAtEnd = currentIndex === 3;
