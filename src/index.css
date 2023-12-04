@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500;600;700&family=Poppins:wght@100;200;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Montserrat;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500;600;700&family=Poppins:wght@100;200;400;500;600;700&display=swap');
+}
+
+.Montserrat{
+    font-family: Montserrat;
+}
+
+.Poppins{
+    font-family: Poppins;
+}
