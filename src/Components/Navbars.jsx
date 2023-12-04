@@ -20,8 +20,6 @@ function Navbars({ halaman, currentIndex, navigate, isActive }) {
         }
     };
 
-    console.log({ isActive });
-
     return (
         <div className={isActive ? "fixed w-full  z-50 shadow-md shadow-orange-100 bg-white opacity-75 " : "fixed w-full s z-50 bg-transparent"}>
             <div className='flex w-full md:h-[70px] sm:h-[50px] h-[40px] items-center mt-[10px] '>
