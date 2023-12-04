@@ -20,11 +20,6 @@ export const Projects = [
         heading: "E LARA",
         tittle: "E LARA adalah aplikasi mobile yang kami bangun menggunakan react-native untuk kebutuhan Lomba KMIPN V di Politeknik Elektronika Negeri Surabaya",
     },
-    {
-        gambar: javascriptLogo,
-        heading: "Ini Coba Coba 3",
-        tittle: "ini juga coba coba tauu soalnya lagi buat aneh aneh",
-    }
 
 
 
