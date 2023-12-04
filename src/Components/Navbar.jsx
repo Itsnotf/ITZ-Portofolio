@@ -53,4 +53,4 @@ function Navbar({ halaman, currentIndex, navigate, isActive }) {
     );
 }
 
-export default Navbar;
+export default navbar;

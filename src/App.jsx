@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import NotFound from './Pages/NotFound';
-import Navbar from '../Components/Navbar.jsx'
+import Navbar from './Components/navbar'
 import { pages } from './constant';
 
 function App() {
