@@ -71,7 +71,7 @@ function App() {
         {showNavbar && <Navbars halaman={Halaman} currentIndex={currentIndex} navigate={handleNavigation} isActive={isActive} />}
       </div>
 
-      <Routes>
+      <Routes basename='/tothepoint_login'>
         {pages.map((page, index) => (
           <Route
             key={index}
