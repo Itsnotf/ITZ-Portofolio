@@ -71,9 +71,10 @@ function App() {
         {showNavbar && <Navbars halaman={Halaman} currentIndex={currentIndex} navigate={handleNavigation} isActive={isActive} />}
       </div>
 
-      <Routes basename='/tothepoint_login'>
+      <Routes>
         {pages.map((page, index) => (
           <Route
+            basename='/tothepoint_login'
             key={index}
             path={page.path}
             element={React.createElement(page.component, { id: index })}
